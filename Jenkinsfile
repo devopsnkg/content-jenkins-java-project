@@ -1,5 +1,5 @@
 pipeline {
-    agent ('Python')
+    agent ['Python']
     
     stages {
         

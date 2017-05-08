@@ -1,5 +1,5 @@
 pipeline {
-    agent { 
+    agent  
     node('Linux')
     
     stages {
@@ -9,5 +9,4 @@ pipeline {
             }
         }
     }
-}
 }

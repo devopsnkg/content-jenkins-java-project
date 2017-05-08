@@ -4,7 +4,7 @@ pipeline {
     
     stages {
         environment { 
-            export JAVA_HOME=/opt/jdk1.8.0_121   
+            JAVA_HOME=/opt/jdk1.8.0_121   
         }
         stage('build'){
             steps {

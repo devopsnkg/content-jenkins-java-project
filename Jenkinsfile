@@ -1,5 +1,5 @@
 pipeline {
-    agent ('Linux')
+    agent ('Python')
     
     stages {
         

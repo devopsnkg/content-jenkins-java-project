@@ -1,5 +1,5 @@
 pipeline {
-    agent Lable ('Linux')
+    agent { Lable('Linux') }
     
     stages {
         

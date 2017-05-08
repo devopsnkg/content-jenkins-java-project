@@ -1,8 +1,8 @@
 pipeline {
-    agent 
+    agent node('master')
     
     stages {
-        node('master')
+        
         stage('build'){
             steps {
                 sh 'ant -f build.xml -v'

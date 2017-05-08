@@ -1,6 +1,6 @@
 pipeline {
     
-    agent any
+    node('Linux')
     
     stages {
         stage('build'){

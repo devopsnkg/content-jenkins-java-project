@@ -10,7 +10,7 @@ pipeline {
                  }
         stage('Test') {
             steps {
-                java -jar '/var/lib/jenkins/workspace/LinuxJobs/Pipeline/dist/rectangle_${env.MAJOR_VERSION}.42.jar' 4 5     
+                java -jar '/var/lib/jenkins/workspace/LinuxJobs/Pipeline/dist/rectangle*' 4 5     
             }
     }
 }

@@ -10,7 +10,8 @@ pipeline {
                  }
         stage('Test') {
             steps {
-                java -jar '/var/lib/jenkins/workspace/LinuxJobs/Pipeline/dist/rectangle*' 4 5     
+                cd '/var/lib/jenkins/workspace/LinuxJobs/Pipeline/dist/'
+                java -jar 'rectangle*' 4 5     
             }
     }
 }

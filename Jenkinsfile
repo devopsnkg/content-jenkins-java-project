@@ -13,5 +13,6 @@ pipeline {
                 cd '/var/lib/jenkins/workspace/LinuxJobs/Pipeline/dist/'
                 sh 'java -jar rectangle* 4 5'     
             }
+        }
     }
 }

@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 cd '/var/lib/jenkins/workspace/LinuxJobs/Pipeline/dist/'
-                java -jar 'rectangle* 4 5'     
+                sh 'java -jar rectangle* 4 5'     
             }
     }
 }

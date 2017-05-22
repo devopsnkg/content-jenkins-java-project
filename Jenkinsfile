@@ -9,4 +9,11 @@ pipeline {
                   }
                  }
             }
-}
+    POST {
+        always {
+            archive 'dist/*.jar'
+                    
+            }
+        }
+    }
+}   
